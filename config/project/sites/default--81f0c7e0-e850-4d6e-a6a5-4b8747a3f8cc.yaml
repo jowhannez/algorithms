@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: en
+name: Algorithms
+primary: true
+siteGroup: fc2b1f51-b00b-4df5-9ff6-254a1890c814 # Algorithms
+sortOrder: 1

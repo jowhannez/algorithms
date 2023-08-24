@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: algorithms
+name: Algorithms
+propagationMethod: all
+siteSettings:
+  81f0c7e0-e850-4d6e-a6a5-4b8747a3f8cc: # Algorithms
+    enabledByDefault: true
+    hasUrls: true
+    template: index
+    uriFormat: 'algorithms/{slug}'
+structure:
+  maxLevels: null
+  uid: e529189f-2dd3-444e-9e30-5b28a5212927
+type: structure

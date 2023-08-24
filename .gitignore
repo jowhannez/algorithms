@@ -1,0 +1,9 @@
+node_modules
+web/resources/css
+web/resources/js
+storage
+vendor
+.env
+*.sql
+*.sql.gz
+mix-manifest.json

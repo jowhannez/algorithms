@@ -1,0 +1,5 @@
+{% for block in blocks %}
+    <div class="block">
+        {% include 'components/blocks/_' ~ block.type.handle with { block: block } only %}
+    </div>
+{% endfor %}

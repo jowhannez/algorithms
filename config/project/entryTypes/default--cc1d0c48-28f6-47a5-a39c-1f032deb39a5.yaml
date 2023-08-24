@@ -1,0 +1,58 @@
+fieldLayouts:
+  84f3b559-7ef8-4b2f-827e-d5340e8809eb:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: f6d0200b-18c9-432b-babe-384b698077d8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: fea47d41-3077-4c3a-a28d-1699eaaffe4d # Content blocks
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0e6a3b65-779e-47d5-a80d-127b7894d7ea
+            userCondition: null
+            warning: null
+            width: 100
+        name: Innhold
+        uid: 7b32b01a-c13c-45ab-97c0-e9c428b07120
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Standard
+section: 0f4d6836-bb65-4724-933e-cd8902d190e1 # Algorithms
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

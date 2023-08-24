@@ -1,0 +1,45 @@
+dateModified: 1692899335
+email:
+  fromEmail: jowhannez@gmail.com
+  fromName: Algorithms
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    0f4d6836-bb65-4724-933e-cd8902d190e1: Algorithms # Algorithms
+    076b0212-b196-4ea1-b460-045d9ec97d53: Text # Text
+    81f0c7e0-e850-4d6e-a6a5-4b8747a3f8cc: Algorithms # Algorithms
+    468eac22-05c9-4b41-a09f-49966a6e217f: Homepage # Homepage
+    a4cfb988-7ac8-4030-9aa8-2347b8717d78: Code # Code
+    a77c6da0-60ce-4818-8266-146beff72a98: Homepage # Homepage
+    cc1d0c48-28f6-47a5-a39c-1f032deb39a5: Standard # Standard
+    d5ca6596-a154-4662-8081-4abd371fef83: Text # Text
+    d940a8f6-053a-45a4-b81c-3542dabfb242: Common # Common
+    ebf8eeb2-104e-46f8-9d7e-bd0de3e1beeb: Headline # Headline
+    fc2b1f51-b00b-4df5-9ff6-254a1890c814: Algorithms # Algorithms
+    fea47d41-3077-4c3a-a28d-1699eaaffe4d: 'Content blocks' # Content blocks
+    ff995c61-9443-487c-a438-41aed8983799: Code # Code
+plugins:
+  codefield:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 5.1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: Algorithms
+  schemaVersion: 4.5.0.3
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

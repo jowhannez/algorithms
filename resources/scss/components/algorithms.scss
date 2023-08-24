@@ -1,0 +1,22 @@
+.algorithms {
+    padding: 100px 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+
+    &__back {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 75px;
+        height: 75px;
+        background-image: url('/img/return_arrow.svg');
+        background-size: 50px;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 16px;
+    }
+
+    &__headline {
+        margin: 0;
+    }
+}

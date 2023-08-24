@@ -1,0 +1,5 @@
+<section class="code">
+    {% if block.code|trim|length %}
+        <pre><code data-lang="{{ block.code.language }}">{{ block.code.value|raw }}</code></pre>
+    {% endif %}
+</section>

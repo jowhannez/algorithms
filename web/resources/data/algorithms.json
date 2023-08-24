@@ -1,0 +1,167 @@
+[
+    {
+        "category": "Introduction"
+    },
+    {
+        "category"  : "Sorting and Searching Algorithms",
+        "algorithms": [
+            {"name": "Bubble Sort",    "description": ""},
+            {"name": "Insertion Sort", "description": ""},
+            {"name": "Selection Sort", "description": ""},
+            {"name": "Merge Sort",     "description": ""},
+            {"name": "Quick Sort",     "description": ""},
+            {"name": "Heap Sort",      "description": ""},
+            {"name": "Binary Search",  "description": ""},
+            {"name": "Ternary Search", "description": ""}
+        ]
+    },
+    {
+        "category"  : "Data Structures",
+        "algorithms": [
+            {"name": "Arrays and Matrices",   "description": ""},
+            {"name": "Linked Lists",          "description": ""},
+            {"name": "Doubly Linked Lists",   "description": ""},
+            {"name": "Stacks",                "description": ""},
+            {"name": "Queues",                "description": ""},
+            {"name": "Priority Queues/Heaps", "description": ""},
+            {"name": "Hash Tables",           "description": ""},
+            {"name": "Trees",                 "description": "", "subcategories": [
+                {"name": "Binary Trees",        "description": ""},
+                {"name": "Binary Search Trees", "description": ""},
+                {"name": "AVL Trees",           "description": ""}
+            ]},
+            {"name": "Graphs",                "description": "", "subcategories": [
+                {"name": "Adjacency List",   "description": ""},
+                {"name": "Adjacency Matrix", "description": ""}
+            ]}
+        ]
+    },
+    {
+        "category"  : "Dynamic Programming",
+        "algorithms": [
+            {"name": "Memoization",                 "description": ""},
+            {"name": "Bottom-Up (Iterative) DP",    "description": ""},
+            {"name": "Bitmask DP",                  "description": ""},
+            {"name": "Matrix Chain Multiplication", "description": ""},
+            {"name": "Longest Common Subsequence",  "description": ""},
+            {"name": "Knapsack Problem",            "description": ""},
+            {"name": "Coin Change Problem",         "description": ""}
+        ]
+    },
+    {
+        "category"  : "Greedy Algorithms",
+        "algorithms": [
+            {"name": "Activity Selection",                         "description": ""},
+            {"name": "Fractional Knapsack",                        "description": ""},
+            {"name": "Huffman Coding",                             "description": ""},
+            {"name": "Prim's and Kruskal's Minimum Spanning Tree", "description": ""},
+            {"name": "Dijkstra's Shortest Path",                   "description": ""},
+            {"name": "Interval Scheduling",                        "description": ""}
+        ]
+    },
+    {
+        "category"  : "Graph Algorithms",
+        "algorithms": [
+            {"name": "Depth-First Search (DFS)",      "description": ""},
+            {"name": "Breadth-First Search (BFS)",    "description": ""},
+            {"name": "Topological Sorting",           "description": ""},
+            {"name": "Strongly Connected Components", "description": "", "subcategories": [
+                {"name": "Kosaraju's Algorithm", "description": ""}
+            ]},
+            {"name": "Shortest Paths", "description": "", "subcategories": [
+                {"name": "Dijkstra's",   "description": ""},
+                {"name": "Bellman-Ford", "description": ""}
+            ]},
+            {"name": "Minimum Spanning Tree", "description": "", "subcategories": [
+                {"name": "Prim's",    "description": ""},
+                {"name": "Kruskal's", "description": ""}
+            ]},
+            {"name": "Maximum Flow", "description": "", "subcategories": [
+                {"name": "Ford-Fulkerson", "description": ""},
+                {"name": "Edmonds-Karp",   "description": ""}
+            ]}
+        ]
+    },
+    {
+        "category"  : "Number Theory",
+        "algorithms": [
+            {"name": "Prime Numbers",                 "description": ""},
+            {"name": "Sieve of Eratosthenes",         "description": ""},
+            {"name": "Greatest Common Divisor (GCD)", "description": ""},
+            {"name": "Least Common Multiple (LCM)",   "description": ""},
+            {"name": "Modular Arithmetic",            "description": ""},
+            {"name": "Fermat's Little Theorem",       "description": ""},
+            {"name": "Euler's Totient Function",      "description": ""},
+            {"name": "Chinese Remainder Theorem",     "description": ""}
+        ]
+    },
+    {
+        "category"  : "String Algorithms",
+        "algorithms": [
+            {"name": "Pattern Matching", "description": "", "subcategories": [
+                {"name": "Naive",      "description": ""},
+                {"name": "KMP",        "description": ""},
+                {"name": "Rabin-Karp", "description": ""}
+            ]},
+            {"name": "Longest Common Subsequence (LCS)", "description": ""},
+            {"name": "Longest Palindromic Subsequence",  "description": ""},
+            {"name": "Edit Distance",                    "description": ""},
+            {"name": "Trie Data Structure",              "description": ""},
+            {"name": "Suffix Array",                     "description": ""}
+        ]
+    },
+    {
+        "category"  : "Geometry",
+        "algorithms": [
+            {"name": "Basic Geometry Concepts", "description": "", "subcategories": [
+                {"name": "Points",   "description": ""},
+                {"name": "Lines",    "description": ""},
+                {"name": "Segments", "description": ""}
+            ]},
+            {"name": "Convex Hull", "description": "", "subcategories": [
+                {"name": "Graham Scan",  "description": ""},
+                {"name": "Jarvis March", "description": ""}
+            ]},
+            {"name": "Closest Pair of Points", "description": ""},
+            {"name": "Line Intersection",      "description": ""},
+            {"name": "Polygon Area",           "description": ""},
+            {"name": "Euclidean Distance",     "description": ""}
+        ]
+    },
+    {
+        "category"  : "Combinatorics",
+        "algorithms": [
+            {"name": "Permutations and Combinations", "description": ""},
+            {"name": "Binomial Coefficients",         "description": ""},
+            {"name": "Catalan Numbers",               "description": ""},
+            {"name": "Inclusion-Exclusion Principle", "description": ""},
+            {"name": "Pigeonhole Principle",          "description": ""}
+        ]
+    },
+    {
+        "category"  : "Bit Manipulation",
+        "algorithms": [
+            {"name": "Basic Bitwise Operations",          "description": ""},
+            {"name": "Finding the Nth Bit",               "description": ""},
+            {"name": "Counting Set Bits",                 "description": ""},
+            {"name": "Generating Subsets using Bitmasks", "description": ""}
+        ]
+    },
+    {
+        "category"  : "Advanced Data Structures",
+        "algorithms": [
+            {"name": "Segment Trees", "description": ""},
+            {"name": "Fenwick Trees", "description": "", "subcategories": [
+                {"name": "Binary Indexed Trees", "description": ""}
+            ]},
+            {"name": "Trie Variations", "description": "", "subcategories": [
+                {"name": "Suffix Trees",  "description": ""},
+                {"name": "Suffix Arrays", "description": ""}
+            ]},
+            {"name": "Disjoint Set Union", "description": "", "subcategories": [
+                {"name": "Union-Find", "description": ""}
+            ]},
+            {"name": "Persistent Data Structures", "description": ""}
+        ]
+    }
+]

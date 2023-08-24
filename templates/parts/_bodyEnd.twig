@@ -1,0 +1,13 @@
+<script src="https://cdn.jsdelivr.net/npm/shiki"></script>
+<script>
+    shiki.getHighlighter({
+      theme: 'nord',
+      langs: ['php'],
+    }).then(highlighter => {
+        const codeBlocks = document.querySelectorAll('pre code');
+        for (const block of codeBlocks) {
+            const code      = highlighter.codeToHtml(block.textContent, block.getAttribute('data-lang'));
+            block.innerHTML = code;
+        }
+    })
+</script>

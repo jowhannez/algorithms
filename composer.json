@@ -1,0 +1,28 @@
+{
+    "name": "johannes/algorithms",
+    "description": "A web application describing all sorts of algorithms",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "modules\\": "modules/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Johannes Håkonsen"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^4.5",
+        "vlucas/phpdotenv": "^4.2.0",
+        "craftcms/feed-me": "^5.2",
+        "craftcms/redactor": "^3.0",
+        "nystudio107/craft-code-field": "^4.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true,
+            "craftcms/plugin-installer": true
+        }
+    }
+}

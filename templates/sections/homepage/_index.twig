@@ -1,0 +1,11 @@
+<div class="cards content-width">
+    <ul class="cards__list">
+        {% for algorithm in craft.entries().section('algorithms').level(1).all() %}
+            <li class="cards__item">
+                <a class="cards__card" href="{{ algorithm.getUrl() }}">
+                    {{ algorithm.title }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

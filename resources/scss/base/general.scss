@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    color: #050505;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.main {
+    background-color: #f5f5f5;
+
+    &--homepage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background-color: $background-color;
+    }
+}
+
+.content-width {
+    width: $content-width;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.block {
+    margin: 50px 0;
+}
+
+.shiki {
+    padding: 16px;
+    font-size: 16px;
+    font-family: 'Input Mono', 'IBM Plex Mono', monospace;
+}

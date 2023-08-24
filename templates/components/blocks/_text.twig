@@ -1,0 +1,9 @@
+<section class="text">
+    {% if block.headline|trim|length %}
+        <h2>{{ block.headline }}</h2>
+    {% endif %}
+
+    {% if block.text|length %}
+        <div>{{ block.text }}</div>
+    {% endif %}
+</section>

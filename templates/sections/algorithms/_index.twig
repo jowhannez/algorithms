@@ -1,0 +1,6 @@
+<section class="algorithms content-width">
+    <a href="/" class="algorithms__back"></a>
+    <h1 class="algorithms__headline">{{ entry.title }}</h1>
+
+    {% include 'components/_contentBlocks.twig' with { blocks: entry.contentBlocks.all() } only %}
+</section>

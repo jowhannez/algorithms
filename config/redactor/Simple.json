@@ -1,0 +1,11 @@
+{
+	"buttons" : [
+		"bold",
+		"italic",
+		"link"
+	],
+	"minHeight": "150px",
+	"toolbarFixed" : true,
+	"linkNewTab" : true,
+	"pasteBlockTags" : ["p"]
+}

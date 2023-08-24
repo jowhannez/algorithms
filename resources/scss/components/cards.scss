@@ -1,0 +1,40 @@
+.cards {
+    margin: auto;
+    
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    &__item {
+        height: calc(#{$content-width} / 4);
+        width: calc(#{$content-width} / 4);
+        padding: 8px;
+    }
+
+    &__card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        border-radius: 25px;
+        cursor: pointer;
+        padding: 16px;
+        border: solid 5px white;
+        transition: all 0.01s;
+        background-color: $background-color;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+
+        &:hover {
+            background-color: white;
+            color: black;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+fieldLayouts:
+  df0a6c23-8c99-463e-8b0b-64231e627721:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 9c6fa622-e246-41ec-b73b-0c88982eb3ef
+            userCondition: null
+            warning: null
+            width: 100
+        name: Innhold
+        uid: 5b243361-cc09-4078-8b30-08f14a5e6567
+        userCondition: null
+handle: homepage
+hasTitleField: false
+name: Homepage
+section: a77c6da0-60ce-4818-8266-146beff72a98 # Homepage
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

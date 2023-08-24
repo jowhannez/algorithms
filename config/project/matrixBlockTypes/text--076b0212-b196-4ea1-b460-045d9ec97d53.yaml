@@ -1,0 +1,86 @@
+field: fea47d41-3077-4c3a-a28d-1699eaaffe4d # Content blocks
+fieldLayouts:
+  80784381-2df8-4958-afe2-0a8e3c22b5c9:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: ebf8eeb2-104e-46f8-9d7e-bd0de3e1beeb # Headline
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6ac809c5-8ec8-4abb-b18f-b44777c00836
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d5ca6596-a154-4662-8081-4abd371fef83 # Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fd3f1a17-d930-4ba8-acb9-6fa8d316a2a0
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 923bc1dc-abc1-4994-95f8-c285106e404c
+        userCondition: null
+fields:
+  d5ca6596-a154-4662-8081-4abd371fef83: # Text
+    columnSuffix: hlgmabau
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: null
+    name: Text
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: Full.json
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  ebf8eeb2-104e-46f8-9d7e-bd0de3e1beeb: # Headline
+    columnSuffix: rkpuxorv
+    contentColumnType: text
+    fieldGroup: null
+    handle: headline
+    instructions: null
+    name: Headline
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: text
+name: Text
+sortOrder: 1

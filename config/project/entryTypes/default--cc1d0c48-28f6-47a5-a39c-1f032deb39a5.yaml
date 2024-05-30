@@ -48,7 +48,6 @@ fieldLayouts:
 handle: default
 hasTitleField: true
 name: Standard
-section: 0f4d6836-bb65-4724-933e-cd8902d190e1 # Algorithms
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site

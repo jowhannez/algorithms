@@ -1,0 +1,36 @@
+color: null
+fieldLayouts:
+  f8f68819-47ff-4024-9e26-ad046ca87551:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: ff995c61-9443-487c-a438-41aed8983799
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: Code
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9ce52087-485d-462b-a41d-5f5e89683f7a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a7f7b19a-7f99-48d9-aa9f-095d3ba5bc11
+        userCondition: null
+handle: code
+hasTitleField: false
+icon: null
+name: Code
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

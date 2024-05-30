@@ -1,0 +1,33 @@
+columnSuffix: lvcbkgxe
+handle: code
+instructions: null
+name: 'Content blocks - Code - Code'
+searchable: false
+settings:
+  availableLanguages:
+    - css
+    - graphql
+    - html
+    - javascript
+    - json
+    - markdown
+    - mysql
+    - php
+    - python
+    - shell
+    - twig
+    - typescript
+    - yaml
+  codeFolding: false
+  defaultValue: ''
+  fontSize: 14
+  language: php
+  lineNumbers: true
+  monacoEditorOptions: ''
+  placeholder: ''
+  showLanguageDropdown: true
+  singleLineEditor: false
+  theme: vs-dark
+translationKeyFormat: null
+translationMethod: none
+type: nystudio107\codefield\fields\Code

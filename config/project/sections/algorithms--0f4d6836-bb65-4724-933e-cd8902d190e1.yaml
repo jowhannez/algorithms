@@ -1,7 +1,19 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  - cc1d0c48-28f6-47a5-a39c-1f032deb39a5 # Standard
 handle: algorithms
+maxAuthors: 1
 name: Algorithms
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primær artikkel-side'
+      -
+        - urlFormat
+        - '{url}'
 propagationMethod: all
 siteSettings:
   81f0c7e0-e850-4d6e-a6a5-4b8747a3f8cc: # Algorithms

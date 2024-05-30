@@ -7,3 +7,5 @@ vendor
 *.sql
 *.sql.gz
 mix-manifest.json
+
+web/cpresources

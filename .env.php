@@ -44,30 +44,16 @@ $envVariables = [
     'ENVIRONMENT'     => $environment,
     'BASE_URL'        => $baseUrl,
     'BASE_PATH'       => $basePath,
-    'SECURITY_KEY'    => 'o3B9qHEtfx7jOpiQ2Fg3fOfIIso_ZGBj',
+    'SECURITY_KEY'    => getenv('SECURITY_KEY'),
+    'DB_SERVER'       => getenv('DB_SERVER'),
+    'DB_USER'         => getenv('DB_USER'),
+    'DB_PASSWORD'     => getenv('DB_PASSWORD'),
+    'DB_DATABASE'     => getenv('DB_DATABASE'),
     'DB_DRIVER'       => 'mysql',
-    'DB_SERVER'       => 'localhost',
-    'DB_USER'         => 'algorithms',
-    'DB_PASSWORD'     => 'algorithms',
-    'DB_DATABASE'     => 'algorithms',
     'DB_SCHEMA'       => 'public',
     'DB_TABLE_PREFIX' => '',
     'DB_PORT'         => '',
 ];
-
-if (getenv('DB_DATABASE')) {
-    $envVariables['DB_DATABASE'] = getenv('DB_DATABASE');
-}
-if (getenv('DB_SERVER')) {
-    $envVariables['DB_SERVER']   = getenv('DB_SERVER');
-}
-if (getenv('DB_USER')) {
-    $envVariables['DB_USER']     = getenv('DB_USER');
-}
-if (getenv('DB_PASSWORD')) {
-    $envVariables['DB_PASSWORD'] = getenv('DB_PASSWORD');
-}
-
 
 /**
  * Check if the env variable is already set, and if not we set it.
